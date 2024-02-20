@@ -1,0 +1,284 @@
+.dashboard {
+    min-height: 100vh;
+}
+.dashboard nav {
+    min-height: 100vh;
+}
+.dashboard .nav-button .togi {
+    width: 12px;
+    height: 3px;
+    background-color: #fff;
+    z-index: 99;
+}
+.dashboard .logo {
+    margin-bottom: 36px;
+}
+.dashboard .user {
+    border-top: 1px solid #F4F7FE;
+    padding-top: 36px;
+    border-bottom: 1px solid #F4F7FE;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+}
+.dashboard .user img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    border-radius: 100%;
+}
+.dashboard .user .name {
+    font-weight: 700;
+    color: #272927;
+}
+.dashboard .user span {
+    color: #A3AED0;
+    font-size: 14px;
+}
+.dashboard .nav .nav-item .nav-link {
+    color: #A3AED0;
+    margin: 8px;
+    padding: 8px 8px;
+    border-radius: 6px;
+}
+.dashboard .nav .nav-item .nav-link:hover {
+    background-color: #E0E9FF;
+    color: #325CF4;
+}
+.dashboard .nav .nav-item .active {
+    background-color: #325CF4;
+    color: #fff;
+}
+.dashboard .main {
+    background-color: #F4F7FE;
+    padding: 30px;
+}
+.dashboard .main .welcome {
+    background-color: #E0E9FF;
+    padding: 48px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard .main .welcome h2 {
+    color: #1D2B5F;
+}
+.dashboard .main .welcome h2 span {
+    color: #325CF4;
+}
+.dashboard .main .welcome p {
+    color: #1D2B5F;
+}
+.dashboard .main .rating {
+    padding: 30px 48px;
+    border-radius: 12px;
+}
+.dashboard .main .rating .title {
+    color: #818181;
+    margin-bottom: 28px;
+}
+.dashboard .main .rating p {
+    color: #1D2B5F;
+    font-weight: 600;
+}
+.dashboard .main .health {
+    border-radius: 12px;
+    color: #1D2B5F;
+}
+.dashboard .main .health .icon {
+    background-color: #E0E9FF;
+    padding: 12px;
+    border-radius: 12px;
+    width: 80px;
+    text-align: center;
+}
+.dashboard .main .health .update {
+    color: #818181;
+}
+.dashboard .main .test {
+    border-radius: 12px;
+}
+.dashboard .main .test .header {
+    background-color: #F4F7FE;
+    padding: 15px;
+    border-radius: 8px;
+    color: #1D2B5F;
+    font-size: 18px;
+    font-weight: 600;
+}
+.dashboard .main .test .header span {
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    margin-left: 5px;
+    
+}
+.dashboard .main .test .form-label {
+    color: #1D2B5F;
+    font-weight: 600;
+}
+.dashboard .main .test form .form-control, .form-select {
+    background-color: #F4F7FE;
+    padding: 8px;
+    border-radius: 8px;
+    color: #1D2B5F;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.dashboard .main .test .download {
+    background-color: #1D2B5F;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    padding: 12px 0px;
+    transition: all ease 0.3s;
+}
+.dashboard .main .test .download:hover {
+    background-color: #273b81;
+}
+.dashboard .main .weight {
+    padding: 24px 32px;
+    border-radius: 12px;
+}
+.dashboard .main .weight .title {
+    color: #1D2B5F;
+}
+.dashboard .main .weight .date {
+    background-color: #E0E9FF;
+    color: #1D2B5F;
+    width: 190px;
+    padding: 4px 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: auto;
+}
+.dashboard .main .weight .header {
+    color: #1D2B5F;
+    font-weight: 600;
+    padding: 0 8px;
+}
+.dashboard .main .weight .weight-data {
+    background-color: #E0E9FF; 
+    padding: 16px;
+    border-radius: 8px;
+
+}
+.dashboard .main .weight .weight-data span {
+    color: #1D2B5F;
+}
+.dashboard .main .weight .weight-data .danger {
+    background-color: #FF725E;
+    color: #fff;
+    margin: 0;
+    padding: 3px 8px;
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+}
+.dashboard .main .weight .weight-data .normal {
+    background-color: #05CD99;
+    color: #fff;
+    margin: 0;
+    padding: 3px 0px;
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+}
+.dashboard .main .weight .download {
+    background-color: #1D2B5F;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    padding: 12px 0px;
+    transition: all ease 0.3s;
+}
+.dashboard .main .weight .download:hover {
+    background-color: #273b81;
+}
+.dashboard .main .recipe {
+    padding: 0px 32px 24px 32px;
+    border-radius: 12px;
+}
+.dashboard .main .recipe img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.dashboard .main .recipe .title {
+    color: #1D2B5F;
+}
+.dashboard .main .recipe .date {
+    color: #A3AED0;
+    margin-bottom: 30px;
+    display: block;
+}
+.dashboard .main .recipe .menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.dashboard .main .recipe .menu img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0;
+    margin-right: 16px;
+
+}
+.dashboard .main .recipe .menu h5 {
+    color: #1D2B5F;
+}
+.dashboard .main .recipe .menu p {
+    color: #A3AED0;
+}
+.dashboard .main .recipe .all-recipe {
+    color: #325CF4;
+    font-weight: 600;
+    transition: all ease 0.3s;
+}
+.dashboard .main .recipe .all-recipe:hover {
+    color: #1D2B5F;
+}
+/* .list-group-item-action.active, .list-group-item-action:hover {
+    background-color: blue;
+    color: white;
+} */
+
+/* Circular Progress Bar */
+/* .progress-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(#4d5bf9 75%, #cadcff 0%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.progress-value {
+    position: relative;
+    z-index: 2;
+}
+
+.progress-value div {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
